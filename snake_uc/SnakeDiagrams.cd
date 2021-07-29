@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="snake_uc.GameEntitites.Apple">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameEntitites\Apple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.GameEntitites.Banana">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameEntitites\Banana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.GameEntitites.Fruit">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameEntitites\Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.GameEntitites.GameEntity">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAIAAAIAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>GameEntitites\GameEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.GameEntitites.Grape">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameEntitites\Grape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.GameEntitites.SnakeElement">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAACAAAAAAEAIAEAAAAQCAAAAAAAAABAA=</HashCode>
+      <FileName>GameEntitites\SnakeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="snake_uc.Choose_level" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Choose_level.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="snake_uc.Free_level" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="snake_uc.Free_level.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Free_level.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIgAgIAACQJEAAIYg0AIgggAQkwBgACAAAJAAEAQAAA=</HashCode>
+      <FileName>Free_level.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="snake_uc.GameOver" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameOver.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="snake_uc.Leaderboard" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAIgCBAAAAIQAAAAMAAAAA=</HashCode>
+      <FileName>Leaderboard.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="snake_uc.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAQAAAAEAAQAAAAgAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="snake_uc.Walls_level">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="snake_uc.Walls_level.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Walls_level.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIgAgIAACQJEAAIYg0AIgggAQkwBgACAAAJAAEAQAAA=</HashCode>
+      <FileName>Walls_level.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

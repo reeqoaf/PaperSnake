@@ -1,0 +1,149 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\apple.png" />
+    <None Remove="Images\banana.png" />
+    <None Remove="Images\body_green.png" />
+    <None Remove="Images\body_purple.png" />
+    <None Remove="Images\body_yellow.png" />
+    <None Remove="Images\grape.png" />
+    <None Remove="Images\head_green.png" />
+    <None Remove="Images\head_purple.png" />
+    <None Remove="Images\head_yellow.png" />
+    <None Remove="Images\tail_green.png" />
+    <None Remove="Images\tail_purple.png" />
+    <None Remove="Images\tail_yellow.png" />
+    <None Remove="Pictures\background.png" />
+    <None Remove="Pictures\background_choose_color.png" />
+    <None Remove="Pictures\background_choose_mode.png" />
+    <None Remove="Pictures\background_game_over.png" />
+    <None Remove="Pictures\background_line.png" />
+    <None Remove="Pictures\background_snake.png" />
+    <None Remove="Pictures\background_whole_black.png" />
+    <None Remove="Pictures\background_whole_blue.png" />
+    <None Remove="Pictures\button_apply.png" />
+    <None Remove="Pictures\button_back.png" />
+    <None Remove="Pictures\button_continue.png" />
+    <None Remove="Pictures\button_customize.png" />
+    <None Remove="Pictures\button_exit.png" />
+    <None Remove="Pictures\button_extreme.png" />
+    <None Remove="Pictures\button_hl_apply.png" />
+    <None Remove="Pictures\button_hl_back.png" />
+    <None Remove="Pictures\button_hl_continue.png" />
+    <None Remove="Pictures\button_hl_customize.png" />
+    <None Remove="Pictures\button_hl_exit.png" />
+    <None Remove="Pictures\button_hl_extreme.png" />
+    <None Remove="Pictures\button_hl_leaderboard.png" />
+    <None Remove="Pictures\button_hl_main_back.png" />
+    <None Remove="Pictures\button_hl_main_menu.png" />
+    <None Remove="Pictures\button_hl_original.png" />
+    <None Remove="Pictures\button_hl_play_again.png" />
+    <None Remove="Pictures\button_hl_sort_by_extreme.png" />
+    <None Remove="Pictures\button_hl_sort_by_original.png" />
+    <None Remove="Pictures\button_hl_start.png" />
+    <None Remove="Pictures\button_hl_xtreme.png" />
+    <None Remove="Pictures\button_leaderboard.png" />
+    <None Remove="Pictures\button_main_back.png" />
+    <None Remove="Pictures\button_main_menu.png" />
+    <None Remove="Pictures\button_original.png" />
+    <None Remove="Pictures\button_play_again.png" />
+    <None Remove="Pictures\button_sort_by_extreme.png" />
+    <None Remove="Pictures\button_sort_by_original.png" />
+    <None Remove="Pictures\button_start.png" />
+    <None Remove="Pictures\button_xtreme.png" />
+    <None Remove="Pictures\choosed.png" />
+    <None Remove="Pictures\snake_background.png" />
+    <None Remove="Pictures\snake_green.png" />
+    <None Remove="Pictures\snake_hl_green.png" />
+    <None Remove="Pictures\snake_hl_purple.png" />
+    <None Remove="Pictures\snake_hl_yellow.png" />
+    <None Remove="Pictures\snake_purple.png" />
+    <None Remove="Pictures\snake_yellow.png" />
+    <None Remove="Pictures\wall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\apple.png" />
+    <Resource Include="Images\banana.png" />
+    <Resource Include="Images\body_green.png" />
+    <Resource Include="Images\body_purple.png" />
+    <Resource Include="Images\body_yellow.png" />
+    <Resource Include="Images\grape.png" />
+    <Resource Include="Images\head_green.png" />
+    <Resource Include="Images\head_purple.png" />
+    <Resource Include="Images\head_yellow.png" />
+    <Resource Include="Images\tail_green.png" />
+    <Resource Include="Images\tail_purple.png" />
+    <Resource Include="Images\tail_yellow.png" />
+    <Resource Include="Pictures\background_choose_color.png" />
+    <Resource Include="Pictures\background_choose_mode.png" />
+    <Resource Include="Pictures\background_game_over.png" />
+    <Resource Include="Pictures\background_line.png" />
+    <Resource Include="Pictures\background_whole_black.png" />
+    <Resource Include="Pictures\background_whole_blue.png" />
+    <Resource Include="Pictures\button_apply.png" />
+    <Resource Include="Pictures\button_back.png" />
+    <Resource Include="Pictures\button_continue.png" />
+    <Resource Include="Pictures\button_customize.png" />
+    <Resource Include="Pictures\button_extreme.png" />
+    <Resource Include="Pictures\button_hl_apply.png" />
+    <Resource Include="Pictures\button_hl_back.png" />
+    <Resource Include="Pictures\button_hl_continue.png" />
+    <Resource Include="Pictures\button_hl_customize.png" />
+    <Resource Include="Pictures\button_hl_exit.png" />
+    <Resource Include="Pictures\button_hl_extreme.png" />
+    <Resource Include="Pictures\button_hl_leaderboard.png" />
+    <Resource Include="Pictures\button_hl_main_back.png" />
+    <Resource Include="Pictures\button_hl_main_menu.png" />
+    <Resource Include="Pictures\button_hl_original.png" />
+    <Resource Include="Pictures\button_hl_play_again.png" />
+    <Resource Include="Pictures\button_hl_sort_by_extreme.png" />
+    <Resource Include="Pictures\button_hl_sort_by_original.png" />
+    <Resource Include="Pictures\button_hl_start.png" />
+    <Resource Include="Pictures\button_main_back.png" />
+    <Resource Include="Pictures\button_main_menu.png" />
+    <Resource Include="Pictures\button_original.png" />
+    <Resource Include="Pictures\button_play_again.png" />
+    <Resource Include="Pictures\button_sort_by_extreme.png" />
+    <Resource Include="Pictures\button_sort_by_original.png" />
+    <Resource Include="Pictures\button_start.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\background.png" />
+    <Resource Include="Pictures\background_snake.png" />
+    <Resource Include="Pictures\button_exit.png" />
+    <Resource Include="Pictures\button_leaderboard.png" />
+    <Resource Include="Pictures\choosed.png" />
+    <Resource Include="Pictures\snake_background.png" />
+    <Resource Include="Pictures\snake_green.png" />
+    <Resource Include="Pictures\snake_hl_green.png" />
+    <Resource Include="Pictures\snake_hl_purple.png" />
+    <Resource Include="Pictures\snake_hl_yellow.png" />
+    <Resource Include="Pictures\snake_purple.png" />
+    <Resource Include="Pictures\snake_yellow.png" />
+    <Resource Include="Pictures\wall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
